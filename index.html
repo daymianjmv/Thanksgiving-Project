@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Thanksgiving Project" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Thanksgiving Project</title>
+</head>
+<body>
+    <div class="cover1">
+        <header>
+            <nav>
+                <div id="mySidebar" class="sidebar">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                    <a class="list" href="#">Models</a>
+                    <a class="list" href="#">Location</a>
+                    <a class="list" href="#">Shop</a>
+                    <a class="list" href="#">About Us</a>
+                    <a class="list" href="#">Contact Us</a>
+                </div>
+
+                <div id="main">
+                    <button class="openbtn" onclick="openNav()">☰</button>
+                </div>
+
+                <script>
+                    function openNav() {
+                        document.getElementById("mySidebar").style.width = "400px";
+                        document.getElementById("main").style.marginLeft = "400px";
+                    }
+
+                    function closeNav() {
+                        document.getElementById("mySidebar").style.width = "0";
+                        document.getElementById("main").style.marginLeft = "0";
+                    }
+                </script>
+            </nav>
+        </header>
+    </div>
+</body>
+</html>
