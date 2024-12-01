@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanksgiving Project | Dishes</title>
+    <link rel="stylesheet" href="dishes.css">
+</head>
+
+<body>
+    <div class="cover1">
+        <header>
+            <nav>
+                <div id="mySidebar" class="sidebar">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                    <a class="list" href="index.html">Home</a>
+                    <a class="list" href="dishes.html">Dishes</a>
+                    <a class="list" href="science.html">Sience</a>
+                    <a class="list" href="global.html">Global</a>
+                </div>
+
+                <div id="main">
+                    <button class="openbtn" onclick="openNav()">☰</button>
+                </div>
+
+                <h1 class="headertext">Explore Dishes<br>Around the World</h1>
+                <script>
+                    function openNav() {
+                        document.getElementById("mySidebar").style.width = "400px";
+                        document.getElementById("main").style.marginLeft = "400px";
+                        document.getElementById("overlay").classList.add("active");
+                    }
+
+                    function closeNav() {
+                        document.getElementById("mySidebar").style.width = "0";
+                        document.getElementById("main").style.marginLeft = "0";
+                        document.getElementById("overlay").classList.remove("active");
+                    }
+                </script>
+            </nav>
+        </header>
+    </div>
+<main>
+    <section class="section-Mexico">
+        <img src="img/thanksgiving-meal.jpg" alt="Mexican ThanksGiving">
+        <div class="mexico-text">
+            <h3 class="h3-Mexico">Mexico</h3>
+            <p class="p-Mexico">Traditional Mexican-American Thanksgiving fare combines familiar American dishes with
+                bright
+                Mexican flavor. Often, turkey has a little Mexican flair; it could be either poached with lime or
+                roasted.
+                For tamales, stuffed with meat or vegetables, it is more festive and fun. With butternut squash and
+                cheese
+                fillings, the enchiladas add a perfect delicacy. Frijoles puercos, being robust and full, is generally
+                the
+                bean choice. For desserts, Tres leches is probably the main course for added sweetness in the dinner.
+                Serrano cranberry salsa adds a little kick to the usual cranberry sauce. These dishes put together a
+                very
+                different and flavorful Thanksgiving celebration.</p>
+        </div>
+    </section>
+    <section class="section-Japanese">
+        <div class="japanease-text">
+            <h3 class="h3-Japanese">Japanese</h3>
+            <p class="p-Japanese">Traditional Japanese Thanksgiving foods boast flavors and ingredients different from
+                what
+                many people would imagine. Turkey tempura offers a crunchy version of the classic bird. Miso-glazed
+                sweet
+                potatoes add a savory-sweet side dish. Soba salad brings freshness in buckwheat noodles and vegetables.
+                Kabocha curry is pumpkin in a rich and flavorful sauce. Green tea stuffing adds an interesting twist to
+                this
+                classic stuffing. And finally, for dessert, the pumpkin pudding is scrumptious. These dishes create a
+                fusion
+                between Japanese and Thanksgiving traditions.</p>
+        </div>
+        <img src="img/japanease-thanksgiving.jpg" alt="Japanese ThanksGiving">
+    </section>
+    <section class="section-Italian">
+        <img src="img/thanksgiving-meal.jpg" alt="Italian ThanksGiving">
+        <div class="italian-text">
+            <h3 class="h3-Italian">Italian</h3>
+            <p class="p-Italian">Traditional Italian Thanksgiving meals celebrate the harvest with fresh, seasonal
+                ingredients being the focus. Roasted turkey is often served with a sage and rosemary rub. Stuffed
+                mushrooms
+                filled with Italian sausage and herbs are a flavorful side dish. Butternut squash risotto adds a creamy
+                and
+                comforting element. Gnocchi with sage butter is a light and delicious pasta option. Panna cotta with
+                pumpkin
+                puree provides a sweet and festive dessert. These dishes create a unique blend of Italian flavors and
+                Thanksgiving traditions.</p>
+        </div>
+    </section>
+</main>
+<footer>
+    <section class="footers">
+        <h3>Explore The Site!</h3>
+        <ul id="site">
+            <li><a class="active" href="#"> Houses</a></li>
+            <li> <a class="active" href="dishes.html">Dishes</a></li>
+            <li><a class="active" href="science.html">Sience</a></li>
+            <li> <a class="active" href="global.html">Global</a></li>
+        </ul>
+    </section>
+    <article class="footers">
+        <h3>Subscribe</h3>
+        <div class="bluebutton">
+            <input type="text" placeholder="Enter Email">
+            <div class="bluebox">
+                <aside>Submit</aside>
+            </div>
+        </div>
+    </article>
+</footer>
+</body>
+
+</html>

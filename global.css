@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+
 /* font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
@@ -7,7 +8,6 @@
 /* font-family: "Inknut Antiqua", serif;
   font-weight: 400;
   font-style: normal; */
-
 body {
     margin: 0px;
 }
@@ -82,17 +82,17 @@ body {
 }
 
 .cover1 {
-    background-image: url(img/the-first-thanksgiving.jpg);
+    background-image: url(img/globalthanksgiving.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    height: 77vh;
+    object-fit: contain;
+    height: 80vh;
     width: 100%;
     stroke: 2;
 }
-
-/*3 row*/
+/* Two Cards */
 .bottom-content>section {
     width: 30%;
     margin: 1em;
@@ -107,7 +107,7 @@ body {
 main {
     display: block;
     unicode-bidi: isolate;
-    height: 45em;
+    height: 50em;
 }
 
 .row {
@@ -118,6 +118,7 @@ main {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 2em;
+    height: 1em;
 }
 
 .cards article img,
@@ -127,12 +128,12 @@ main {
 
 img {
     width: 100%;
-    height: 291px;
+    height: 50%;
     border: solid 1px darkgrey;
 }
 
-h3 {
-    font-size: 21px;
+.rh3 {
+    font-size: 40px;
     margin-top: 0;
     margin-bottom: 0.5em;
     font-family: "Inknut Antiqua", serif;
@@ -176,7 +177,7 @@ p {
 }
 
 .thirds article {
-    width: 30%;
+    width: 48%;
 }
 
 article {

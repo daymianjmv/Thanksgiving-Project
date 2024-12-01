@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="Thanksgiving Project" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <title>Thanksgiving Project | Home</title>
+    <link rel="stylesheet" href="global.css">
+    <title>Thanksgiving Project | Global</title>
 </head>
 
 <body>
@@ -14,7 +14,7 @@
             <nav>
                 <div id="mySidebar" class="sidebar">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-                    <a class="list" href="#">Home</a>
+                    <a class="list" href="index.html">Home</a>
                     <a class="list" href="dishes.html">Dishes</a>
                     <a class="list" href="science.html">Sience</a>
                     <a class="list" href="global.html">Global</a>
@@ -24,7 +24,7 @@
                     <button class="openbtn" onclick="openNav()">☰</button>
                 </div>
 
-                <h1 class="headertext">Thanksgiving</h1>
+                <h1 class="headertext">Thanksgiving Food<br>Around the World</h1>
                 <script>
                     function openNav() {
                         document.getElementById("mySidebar").style.width = "400px";
@@ -41,35 +41,47 @@
             </nav>
         </header>
     </div>
-
     <main>
         <section class="row thirds cards">
             <article>
-                <img src="img/different thanksgiving celebrations.jpg" alt="first Thanksgiving">
-                <h3>A Global Thanksgiving Feast:</h3>
-                <p class="bp">Explore Thanksgiving dishes from various cultures. Additionally, provide recipes for these
-                    diverse culinary traditions.</p>
-                <a href="dishes.html" class="button" type="button">Dishes</a>
+                <img src="img/Thanksgiving-Canada.jpg" alt="Canada">
+                <h3 class="rh3">Canada</h3>
+                <p class="bp">Canadian Thanksgiving is celebrated with family gatherings and feasting. The main
+                    staple foods of this day include roast turkey, stuffing, mashed potatoes, gravy, and pumpkin
+                    pie. A majority of families celebrate the holiday with a hearty meal together.</p>
+
             </article>
             <article>
-                <img src="img/img2cooking.jpeg" alt="Women Cooking ThanksGiving"><br>
-                <h3>Science of Cooking</h3>
-                <p class="bp">Delve into the science behind common Thanksgiving recipes. Explore the principles of
-                    cooking techniques that contribute to the deliciousness of these traditional dishes.</p>
-                <a href="sience.html" class="button">Sience</a>
+                <img src="img/Thanksgiving-Mexicojpg.jpg" alt="Mexico"><br>
+                <h3 class="rh3">Mexico</h3>
+                <p class="bp">Thanksgiving in Mexico combines traditional flavors with the spirit of festivities.
+                    Pumpkin empanadas and turkey prepared with special spices are some popular dishes. Many families
+                    enjoy a meal that is festive, with their own cultural touch.</p>
+            </article>
+        </section>
+    </main>
+    <main>
+        <section class="row thirds cards">
+            <article>
+                <img src="img/Thanksgiving-Koreajpg.jpg" alt="Korea">
+                <h3 class="rh3">Korea</h3>
+                <p class="bp">Chuseok is a sort of Korean Thanksgiving in which one pays respect to ancestors and enjoys
+                    a special feast. Traditional dishes include sweet and spicy braised turkey and a variety of rice
+                    cakes. Families honor their ancestors with a special feast.</p>
+
             </article>
             <article>
-                <img src="img/thanksgiving-meal.jpg" alt="ThanksGiving meal"><br>
-                <h3>Food Around the World</h3>
-                <p class="bp">Showcasing traditional dishes from different countries. These dishes celebrate harvest
-                    festivals and reflect the unique culinary traditions of each culture.</p>
-                <a href="global.html" class="button">Global</a>
+                <img src="img/Thanksgiving-Cuba.jpg" alt="Cuba"><br>
+                <h3 class="rh3">Cuba</h3>
+                <p class="bp">Thanksgiving in Cuba is one of the most special moments, when families and communities get
+                    together: rice, beans, and roasted pork are shared among family members and friends, with stories,
+                    laughter, and thanks.</p>
             </article>
         </section>
     </main>
 
     <footer>
-        <section>
+        <section class="footers">
             <h3>Explore The Site!</h3>
             <ul id="site">
                 <li><a class="active" href="#"> Houses</a></li>
@@ -78,7 +90,7 @@
                 <li> <a class="active" href="global.html">Global</a></li>
             </ul>
         </section>
-        <article>
+        <article class="footers">
             <h3>Subscribe</h3>
             <div class="bluebutton">
                 <input type="text" placeholder="Enter Email">

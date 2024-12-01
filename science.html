@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanksgiving Project | Science</title>
+    <link rel="stylesheet" href="science.css">
+</head>
+
+<body>
+    <div class="cover1">
+        <header>
+            <nav>
+                <div id="mySidebar" class="sidebar">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                    <a class="list" href="index.html">Home</a>
+                    <a class="list" href="dishes.html">Dishes</a>
+                    <a class="list" href="science.html">Sience</a>
+                    <a class="list" href="global.html">Global</a>
+                </div>
+
+                <div id="main">
+                    <button class="openbtn" onclick="openNav()">☰</button>
+                </div>
+
+                <h1 class="headertext">The Science of<br>Thanksgiving Cooking</h1>
+                <script>
+                    function openNav() {
+                        document.getElementById("mySidebar").style.width = "400px";
+                        document.getElementById("main").style.marginLeft = "400px";
+                        document.getElementById("overlay").classList.add("active");
+                    }
+
+                    function closeNav() {
+                        document.getElementById("mySidebar").style.width = "0";
+                        document.getElementById("main").style.marginLeft = "0";
+                        document.getElementById("overlay").classList.remove("active");
+                    }
+                </script>
+            </nav>
+        </header>
+    </div>
+    <main>
+        <section class="row thirds cards">
+            <article>
+                <img src="img/turkeyoven.jpg" alt="The Turkey">
+                <h3>The Turkey</h3>
+                <p class="bp">Science is behind the Thanksgiving turkey recipes, which include understanding the makeup
+                    of meat and cooking methodology. The composition of a turkey contains muscle fibers, connective
+                    tissues, and fat. When the meat cooks, proteins tighten and can squeeze out juices. Brining breaks
+                    down the proteins and helps retain moisture, adding flavor. High temperatures cook the skin crispy
+                    first, then reduce to even out the cooking. Methods of roasting and frying bring different textures
+                    and flavors to the table. Wrapping the turkey in oven bags or aluminum foil will help it to stay
+                    moist. Knowing these principles makes for a tastier Thanksgiving turkey.</p>
+
+            </article>
+            <article>
+                <img src="img/thanksgiving-ham.jpg" alt="The Ham"><br>
+                <h3>The Ham</h3>
+                <p class="bp">The science of Thanksgiving ham recipes includes the knowledge of curing, cooking methods,
+                    and flavor development. Curing is a chemical process that turns pork into ham. This not only
+                    enriches the flavor but also preserves the meat. The techniques of cooking ham are several, but for
+                    tenderness, moist heat is essential. A common method is baking the ham slowly at 325°F. This lets
+                    the fat render and keeps the meat juicy. Adding a glaze, often containing brown sugar or honey,
+                    caramelizes the surface. A brief, high-heat blast at the end provides a beautiful, burnished
+                    exterior. Understanding these principles leads to a delicious Thanksgiving ham.</p>
+            </article>
+            <div class="pi">
+                <img src="img/thanksgivingpie.jpg" alt="Thanksgiving Pie" class="pieimg">
+                <div class="pitext">
+                    <h3>The Pie</h3>
+                    <p>Thanksgiving pumpkin pie is all about the chemistry of baking and flavor. The pumpkin puree
+                        contributes to the moisture and a degree of natural sweetness. The spices of cinnamon, nutmeg,
+                        and
+                        ginger make for a great flavor profile. The crust is important in that it provides a structural
+                        element and textural contrast. Eggs help bind the filling and add to the richness. Baking at a
+                        moderate temperature ensures even cooking and a set filling. The success of the pie depends on
+                        the
+                        balance of ingredients and the exact baking techniques. Understanding these principles leads to
+                        a
+                        delicious Thanksgiving pumpkin pie.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section>
+            <h3>Explore The Site!</h3>
+            <ul id="site">
+                <li><a class="active" href="#"> Houses</a></li>
+                <li> <a class="active" href="dishes.html">Dishes</a></li>
+                <li><a class="active" href="science.html">Sience</a></li>
+                <li> <a class="active" href="global.html">Global</a></li>
+            </ul>
+        </section>
+        <article>
+            <h3>Subscribe</h3>
+            <div class="bluebutton">
+                <input type="text" placeholder="Enter Email">
+                <div class="bluebox">
+                    <aside>Submit</aside>
+                </div>
+            </div>
+        </article>
+    </footer>
+</body>
+
+</html>
