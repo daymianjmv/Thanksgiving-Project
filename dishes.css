@@ -99,7 +99,7 @@ body {
     height: 45em;
 }
 
-div {
+.mexico-text, .japanese-text, .italian-text {
     display: flex;
     flex-direction: column;
     text-align: center;
